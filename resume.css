@@ -1,0 +1,494 @@
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --light:#FFFFFF;
+    --ternary:#898989;
+    --l1:#F2F2F2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+
+
+/*Home*/
+
+h1,#sec{
+    color: var(--light);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5cm;
+}
+a{
+    font-size: 0.7cm;
+}
+.home{
+    padding: 5cm;
+    background: #212529;
+    clip-path: polygon(100% 0,100% 100%,80% 86.5%,0 100%,0% 20%);
+}
+.h44{
+    color: var(--ternary);
+    text-align: center;
+}
+p{
+    color: var(--ternary);
+    text-align: center;
+    font-size: 0.4cm;
+    font-weight: 300;
+}
+
+/*Education Section*/
+
+.edu{
+    background: #212529;
+    margin-top: 4rem;
+    padding: 2cm 5cm ;
+    clip-path: polygon(0 0,100% 0,100% 100%,90% 92%,0 100%); 
+}
+.eduh1{
+    text-align: center;
+    text-decoration: underline;
+    color: var(--ternary);
+    font-size: 1.5cm;
+    font-weight: 800;
+    padding: 10px;
+}
+.edu span{
+    color: var(--primary);
+    text-decoration: underline;
+    font-weight: 800;
+
+}
+.t1 {
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2cm;
+    
+  }
+  
+  #th {
+    color: black;
+    font-size: 0.6cm;
+    font-weight: bold;
+  }
+  tr,th,td {
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 35px;
+    background: #FFFFFF;
+  }
+  td{
+      font-size: 0.4cm;
+      font-weight: 600;
+  }
+
+  /*My Skills*/
+
+  .skill{
+      background: #212529;
+  }
+  #sec{
+      text-decoration: underline;
+  }
+  .skill h1{
+      margin-top: 2rem;
+      color: var(--ternary);
+      text-decoration: underline;
+      padding: 5rem;
+  }
+  .third h2{
+      color: var(--light);
+      padding: 5rem;
+      text-align: center;
+  }
+  .thd a{
+      text-decoration: none;
+      padding: 15px;
+      background: #FFFFFF;
+      border: 3px solid rgb(19, 18, 18);
+      color:var(--primary);
+
+  }
+.thd{
+    padding: 9rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 5rem;
+}
+
+  
+  /*Technology Section*/
+
+  .mobile{
+    background: #212529;
+    display: none;
+   }
+  .technology{
+      padding-top: 2rem;
+      padding-bottom: 8rem;
+      background: #212529;
+  }
+  .TechClass{
+      padding:15px;
+      
+  }
+  .TechClass h1{
+      color: var(--ternary);
+      text-align: center;
+      text-decoration: underline;
+      font-size: 1.5cm;
+      font-weight: 800;
+      padding-top: 5rem;
+  }
+  .TechClass span{
+      color: var(--primary);
+      text-decoration: underline;
+      font-weight: 800;
+  }
+  .card-wrap{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-column-gap: 2rem;
+      grid-row-gap: 8rem;
+      padding-top: 9rem;
+  }
+  .car{
+      padding-top: 35px;
+      background: var(--light);
+      position: relative;
+      text-align: center;
+      border-radius: 30px;
+      border: 5px black solid;
+  }
+  .car img{
+      position:absolute;
+      top:-2.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+.para{
+    color: var(--ternary);
+    padding: 15px;
+    text-align: center;
+    font-weight: 800;
+  }
+  .car h2{
+      color: var(--primary);
+      padding-top: 15px;
+      font-weight: 1500;
+  }
+  .car:hover{
+      background: var(--dark);
+      cursor: pointer;
+      border: 5px solid white;
+  }
+  .para:hover{
+    color: #FFFFFF;
+  }
+
+  /*project Section*/
+
+  .project{
+      background:#212529;
+  }
+ #hh{
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 20px;
+      font-size: 2cm;
+      text-decoration: underline;
+      color: var(--ternary);
+      font-weight: 800;
+  }
+  .project p{
+      font-size: 0.6cm;
+      font-weight: 600;
+      color: var(--light);
+  }
+  .project span{
+      color: var(--primary);
+      font-weight: 800;
+  }
+
+.pro-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 2rem;
+    padding: 1rem;
+}
+.pro-card video{
+    height: 600px;
+    width: 700px;
+}
+.pro-card h1{
+    text-align: center;
+    color: var(--light);
+    font-weight: 600;
+    font-size:1.5cm;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1cm;
+}
+.pro-card p{
+    text-align: justify;
+    padding-top: 1cm;
+    color: #FFFFFF;
+}
+
+/*Footer Section*/
+
+.foot
+{
+    background: #212529;
+    clip-path: polygon(100% 0,100% 100%,0 100%,0% 10%);
+}
+.foot h1{
+    padding-top: 5rem;
+}
+.ft{
+    margin-top: 1rem;
+    padding: 4rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+.ft h3{
+    padding-bottom: 3rem;
+}
+.social{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foot h2{
+    padding: 3rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+/*Making Responsive with Media Query*/
+
+@media (max-width:1349px)
+{
+    .home{
+        margin-top:1cm;
+    }
+}
+
+@media all and (max-width:768px)
+{
+
+    /*Home Section*/
+
+    .home{
+        padding: 3cm;
+        margin-top: 9cm;
+    }
+    .home h1{
+        font-size: 1cm;
+    }
+    .home p{
+        text-align: justify;
+    }
+
+    /*Academics Section*/
+
+    .eduh1,#sec{
+        font-size: 0.8cm;
+        text-align: center;
+        padding: 0;
+    }
+    .t1{
+        padding-bottom: 3rem;
+    }
+    #th {
+        color: black;
+        font-size: 0.4cm;
+        font-weight: bold;
+      }
+      tr,th,td {
+        
+        text-align: center;
+        border: 1px solid black;
+        padding: 14px;
+        background: #FFFFFF;
+      }
+      td{
+          font-size: 0.4cm;
+          font-weight: 400;
+      }
+
+      /*My Skills Section*/
+
+      .skill h1,#sec{
+          font-size: 0.8cm;
+      }
+      .thd{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 5rem;
+        grid-row-gap: 5rem;
+    }
+
+    /*technology Section*/
+
+    .TechClass h1,#sec{
+        font-size: 0.8cm;
+    }
+
+    /*Project Scetion*/
+
+    #hh,#sec{
+        font-size: 0.8cm;
+    }
+    .project p{
+        font-size: 0.5cm;
+        font-weight: 500;
+    }    
+    .pro-card video{
+        height: 600px;
+        width: 350px;
+    }
+    .pro-card h1{
+        text-align: center;
+        color: var(--light);
+        font-weight: 700;
+        font-size:0.7cm;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 4.5cm;
+    }
+    .pro-card p{
+        font-size: 0.5cm;
+        font-weight: 500;
+    }
+
+    /*Footer Section*/
+
+    .foot h1{
+        font-size: 0.8cm;
+    }
+    .ft h3{
+        font-size: 0.4cm;
+    }
+    .foot h2{
+        font-size: 0.6cm;
+    }
+
+}
+
+/*Media Query For Mobile Phones*/
+
+@media only screen and (max-width:700px)
+{
+    .home{
+        padding: 0.5cm;
+    }
+    .home h1{
+        font-size: 0.9cm;
+        padding-top: 2cm;
+    }
+    .h44{
+        font-size: 0.5cm;
+    }
+    .home p{
+        padding-bottom: 1cm;
+    }
+
+    /*Education Section*/
+
+    .edu{
+        padding: 0;
+        padding-top: 2cm;
+        padding-bottom: 2cm;
+    }
+    .edu h1,#sec{
+        font-size: 0.8cm;
+        font-weight: 700;
+    }
+    tr,th,td {
+        
+        text-align: center;
+        border: 1px solid black;
+        padding: 5px;
+        background: #FFFFFF;
+      }
+      td{
+          font-size: 0.3cm;
+          font-weight: 400;
+      }
+
+    /*MySkills Section*/
+
+    .skill h1,#sec{
+        font-size: 0.8cm;
+        font-weight: 600;
+    }
+    .thd{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+
+    /*Technology Section*/
+
+    .TechClass h1,#sec{
+        font-weight: 600;
+    }
+    .mobile{
+        display: block;
+        padding-bottom: 2cm;
+    }
+    .technology{
+        display: none;
+    }
+    .card-wrap{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 2rem;
+        grid-row-gap: 8rem;
+        padding-top: 7rem;
+    }
+    .car{
+        padding-top: 35px;
+        background: var(--light);
+        position: relative;
+        text-align: center;
+        border-radius: 30px;
+        border: 5px black solid;
+    }
+    .car img{
+        height: 50px;
+        top:-1.5rem;
+    }
+
+    /*Project Section*/
+
+    .pro-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pro-card h1{
+        padding-top: 1cm;
+    }
+    .pro-card video{
+        height: 600px;
+        width: 350px;
+    }
+    #hh,#sec{
+        font-size: 0.8cm;
+        font-weight: 600;
+        padding-bottom: 1cm;
+    }
+    #para{
+        font-size: 0.45cm;
+    }
+    
+}
